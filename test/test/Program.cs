@@ -10,15 +10,16 @@ namespace test
     {
         static void Main(string[] args)
         {
-            test(true);
+            test(true, "r");
             
         }
 
-        static void test(bool ok)
+        static void test(bool ok, string lol)
         {
             if(ok)
             {
                 Console.WriteLine("ok");
+                Console.WriteLine(lol);
             }
         }
     }
