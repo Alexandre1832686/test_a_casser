@@ -10,13 +10,13 @@ namespace test
     {
         static void Main(string[] args)
         {
-            test(true, "r");
+            test(true, "r",true);
             
         }
 
-        static void test(bool ok, string lol)
+        static void test(bool ok, string lol, bool ok1)
         {
-            if(ok)
+            if(ok && ok1)
             {
                 Console.WriteLine("ok");
                 Console.WriteLine(lol);
