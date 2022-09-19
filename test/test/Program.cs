@@ -10,13 +10,14 @@ namespace test
     {
         static void Main(string[] args)
         {
-            test();
+            test(3);
             
         }
 
-        static void test()
+        static void test(int ok)
         {
             Console.WriteLine("ok");
+            Console.WriteLine(ok);
         }
     }
 }
